@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Script-Type" content="text/javascript">
+    <script>
+        //Aliaksei Katlo 3K
+        function WinOpen_g1() {
+            window.open("grafika1.html", "okienko_g1", "toolbar=no,directories=no,menubar=no,height=350,width=300,top=75,left=100");
+        }
+        function WinOpen_g2() {
+            window.open("grafika2.html", "okienko_g2", "toolbar=no,directories=no,menubar=no,height=400,width=340,top=800,left=100");
+        }
+        function WinOpen_g3() {
+            window.open("grafika3.html", "okienko_g3", "toolbar=no,directories=no,menubar=no,height=450,width=300,top=75,left=1500");
+        }
+        function WinOpen_g4() {
+            window.open("grafika4.html", "okienko_g4", "toolbar=no,directories=no,menubar=no,height=450,width=325,top=800,left=1500");
+        }
+        function okno_zamknij_katlo() {
+            window.close()
+        }
+    </script>
+    <style>
+        h1 {
+            color: red;
+        }
+    </style>
+    <title>Aliaksei Katlo 3K</title>
+</head>
+
+<body>
+    <h1>Wykonał:Aliaksei Katlo mój numer w dzieniku 10, czyli mam układ [(10) mod 4=2] układ 2</h1>
+    <form>
+        <input type="button_g1" name="grafika1" value="grafika1-katlo" onclick="WinOpen_g1(' ')">
+        <input type="button_g2" name="grafika2" value="grafika2-katlo" onclick="WinOpen_g2(' ')">
+        <input type="button_g3" name="grafika3" value="grafika3-katlo" onclick="WinOpen_g3(' ')">
+        <input type="button_g4" name="grafika4" value="grafika4-katlo" onclick="WinOpen_g4(' ')">
+        <input type="button" value="zamknij okno" onclick="okno_zamknij_katlo()" />
+    </form>
+    
+</body>
+
+</html>
