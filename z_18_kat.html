@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<head>
+    <title> Użycie fukcji </title>
+    <meta charset="utf-8">
+    <script>
+        function WinOpen_g1() {
+            window.open("z_18_kat_kod.html", "okienko_z18", "toolbar=no,directories=no,menubar=no,height=1000,width=2000,top=75,left=100");
+        }
+    </script>
+</head>
+
+<body>
+    <div style="color:navy;font-size:50px;">
+        <script language="JavaScript">
+            var a = parseFloat(prompt("a=", ""));
+            var b = parseFloat(prompt("b=", ""));
+            function suma_kat(a, b) {
+                return a + b;
+            }
+            document.write("suma=" + suma_kat(a, b) + "<br>"); 
+            function odejmowanie_kat(a, b) {
+                return a - b;
+            }
+            document.write("różnica=" + odejmowanie_kat(a, b) + "<br>");
+            function mnozenie_kat(a, b) {
+                return a * b;
+            }
+            document.write("mnożenie=" + mnozenie_kat(a, b) + "<br>");
+            function do_kwadratu_kat(a, b) {
+                return [a**2, b**2];
+            }
+            document.write("do kwadratu=" + do_kwadratu_kat(a, b).join(", ") + "<br>");
+            function reszta_z_dzielenia_a_przez_b_kat(a, b) {
+                return a % b;
+            }
+            document.write("reszta z dzielenia a przez b=" + reszta_z_dzielenia_a_przez_b_kat(a, b) + "<br>");
+        </script>
+    </div>
+    <input type="button_g1" name="z18" value="z_18-katlo-kod" onclick="WinOpen_g1(' ')">
+</body>
+
+</html>

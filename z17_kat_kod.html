@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<head>
+    <title>kod do z17</title>
+    <meta charset="utf-8">
+    <style>
+        .z17{
+            width: 100%;
+            height: 1000px;
+            resize: none;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea class="z17">
+        <!DOCTYPE html>
+
+<head>
+    <title> Przykłady dostępu do elementów </title>
+    <meta charset="utf-8">
+</head>
+
+<body>
+    
+    <h2 id="pytanie1"></h2>
+    <ul>
+        <li id="document.write"></li>
+        <li id="alert"></li>
+        <li>do okienek formularza</li>
+        <li>do tabeli</li>
+    </ul>
+    <h2 id="pytanie2">2</h2>
+    <ul>
+        <li>Jest to zbiór zgrupowanych instrukcji, które możemy uruchamiać poprzez podanie ich nazwy.</li>
+        <li>Każda funkcja po wywołaniu wykonuje swój wewnętrzny kod.</li>
+        <li>Funkcja może mieć argumenty, które wchodzą do wnętrza funkcji i są tam przetwarzane np. 
+            suma_kry(a, b).</li>
+        <li>Może(nie zawsze) zwrócić obliczoną wartość zapisaną po słowie kluczowym return.</li>
+    </ul>
+    <h2 id="pytanie3"></h2>
+    <ul>
+        <li id="getElementByName"></li>
+        <li id="getElementById"></li>
+        <li id="getElementByTagName"></li>
+    </ul>
+    <h2 id="pytanie4"></h2>
+    <ul>
+        <li id="innerHTML"></li>
+        <li id="innerText"></li>
+        <li id="className"></li>
+    </ul>
+    <script>
+        document.getElementById("pytanie1").innerHTML = "<u>1. Wymień cztery sposoby wyprowadzania danych w JS.</u>";
+        document.getElementById("document.write").innerHTML = "z użyciem <b>dokument.write()</b>";
+        document.getElementById("alert").innerHTML = "z użyciem okienka <b>alert()</b>";
+        document.getElementById("pytanie2").innerHTML = "<u>2. Czym jest funkcja w JS? Omów przy użyciu 4 podpunktów.</u>";
+        document.getElementById("pytanie3").innerHTML = "<u>3. Omów metody getElementsByName, getElementById, getElementByTagName (może być w postaci tabeli).</u>";
+        document.getElementById("getElementByName").innerHTML = "<b>getElementByName(znacznik)</b> - dostęp do wszystkich elementów o konkretnej wartości atrybutu.";
+        document.getElementById("getElementById").innerHTML = "<b>getElementById(id)</b> - dostęp do wszystkich elementów o konkretnej wartości atrybutu id.";
+        document.getElementById("getElementByTagName").innerHTML = "<b>getElementByTagName(nazwa)</b> - dostęp do wszystkich elementów o typie znacznika, np. P lub DIV.";
+        document.getElementById("pytanie4").innerHTML = "<u>4. Omów właściwości  innerHTML  innerText  className. (każdą osobno)</u>";
+        document.getElementById("innerHTML").innerHTML = "<b>innerHTML</b> -  jest to właściwość, która umożliwia odczyt, zmodyfikowanie, wstawienie, albo usunięcie kodu HTML z danego elementu HTML np. w tabeli.";
+        document.getElementById("innerText").innerHTML = "<b>innerText</b> -  umożliwia określenie ciągu znaków który zostanie umieszczony w elemencie.";
+        document.getElementById("className").innerHTML = "<b>className</b> -  umożliwia określenie klasy CSS użytej do prezentacji elementu.";
+    </script>
+</body>
+
+</html>
+    </textarea>
+
+</body>
+
+</html>
